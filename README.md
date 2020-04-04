@@ -111,12 +111,6 @@
 
 
 
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"// генерация нового ключа SSH  
-git push origin master //для отправки коммитов сделанных в локальной ветке на удаленный репозиторий  
-git clone (adres) // Клонирование репозитория   
- 
- 
-git config —local core.quotepath false // Настраиваем правильное отображение файлов с русскими названиями в командах Git  
 
 
 
