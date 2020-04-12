@@ -1,0 +1,267 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+	width: 2000px;
+	height: 2000px;
+}
+
+.form {
+	top: 150px;
+	left: 150px;
+	width: 1146px;
+	height: 720px;
+	position: relative;
+	background: #150433;
+}
+
+.position__header {
+	position: absolute;
+	width: 362px;
+	height: 54px;
+	left: 98px;
+	top: 108px;
+}
+
+.header__title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 37px;
+	color: #FCFCFC;
+}
+
+
+/*........................................................*/
+
+.position__name {
+	position: absolute;
+	width: 362px;
+	height: 90px;
+	top: 217px;
+	left: 98px;
+}
+
+.name__title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12.6px;
+	line-height: 207.9%;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	color: #FCFCFC;
+}
+
+.position__title {
+	position: absolute;
+	width: 264px;
+	height: 35px;
+	padding-left: 2px;
+}
+
+.name__input {
+	background: #FCFCFC;
+	border: 1px solid #F4F4ED;
+	box-sizing: border-box;
+}
+
+.name__input__position {
+	top: 36px;
+	left: 1px;
+	position: absolute;
+	width: 362px;
+	height: 54px;
+}
+
+input::placeholder {
+	padding: 0px 152px 0px 18px;
+	position: absolute;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16.2px;
+	line-height: 163.35%;
+	display: flex;
+	align-items: center;
+	color: #9B94A3;
+	opacity: 0.5;
+}
+
+.position__email {
+	position: absolute;
+	width: 362px;
+	height: 90px;
+	top: 342px;
+	left: 98px;
+}
+
+.email__title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12.6px;
+	line-height: 207.9%;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	color: #FCFCFC;
+}
+
+.position__title {
+	position: absolute;
+	width: 264px;
+	height: 35px;
+	top: -4px;
+}
+
+.email__input {
+	background: #FCFCFC;
+	border: 1px solid #F4F4ED;
+	box-sizing: border-box;
+}
+
+.email__input__position {
+	top: 36px;
+	left: 1px;
+	position: absolute;
+	width: 362px;
+	height: 54px;
+}
+
+.position__message {
+	top: 217px;
+	left: 491px;
+	position: absolute;
+	width: 558px;
+	height: 270px;
+}
+
+.message__title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12.6px;
+	line-height: 207.9%;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	color: #FCFCFC;
+	mix-blend-mode: normal;
+}
+
+.message__title__position {
+	top: -5px;
+	left: 1px;
+	position: absolute;
+	width: 316px;
+	height: 35px;
+}
+
+.message__input {
+	background: #FCFCFC;
+	border: 1px solid #F4F4ED;
+	box-sizing: border-box;
+}
+
+.message__input__position {
+	margin-top: 35px;
+	position: absolute;
+	width: 558px;
+	height: 234px;
+}
+
+textarea::placeholder {
+	padding-top: 31px;
+	padding-left: 51px;
+	position: absolute;
+	width: 151px;
+	height: 27px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16.2px;
+	line-height: 163.35%;
+	color: #776C82;
+	opacity: 0.5;
+}
+
+button::-webkit-focus-inner {
+	outline: none;
+	border: 0;
+	padding: 0;
+}
+
+.button {
+	outline: none;
+	position: absolute;
+	width: 215px;
+	height: 54px;
+}
+
+.button__form {
+	padding-left: 45px;
+	color: #FCFCFC;
+	position: absolute;
+	width: 215px;
+	height: 54px;
+	background: #F61067;
+	border-radius: 36px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13.5px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.position__button {
+	top: 540px;
+	left: 490px;
+}
+
+
+@font-face{
+	font-family: "Open Sans";
+	src: url('font/OpenSans-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+}

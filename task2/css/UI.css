@@ -1,0 +1,33 @@
+section{
+
+	margin-top: 250px;
+	width: 100%;
+}
+.elements{
+	text-align: center;
+	width: inherit;
+	height: 500px;
+}
+button{
+	font-size: 24px;
+	border-radius: 10%;
+	width: 160px;
+	height: 30px;
+	background: red;
+	color: white;
+	box-shadow: 0.125em 0.125em 0 #fff,
+              0.25em 0.25em #000;
+}
+button:hover{
+	
+	background: blue;
+}
+.checkbox{
+	font-style: italic;
+	font-weight: bold;
+	background: #0085a3;
+	color:white;
+	padding: 5px;
+	display: inline-block;
+	border:1px solid black;
+}
