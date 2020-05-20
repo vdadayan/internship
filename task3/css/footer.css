@@ -1,0 +1,131 @@
+.footer{
+	flex: 0 0 auto;
+	width: 100%;
+	min-height: 435px;
+	background: #FAFAFA;
+}
+.footer-groups{
+	display: flex;	
+	margin:85px auto 0px;
+}
+.footer__link{	
+	color: #000000;
+}
+.footer__link:hover {
+	color: blue;
+}
+.address{
+	width: 259px;	
+}
+.footer-titles{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: left;
+	color: #101010;
+}
+.address-text{
+	display: flex;
+	flex-direction: column;
+	width: 254px;	
+	margin-top: 33px;
+	line-height: 150%;
+}
+.address__span{
+	display: block;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	color: #101010;
+}
+.address__copy{
+	margin-bottom: 10px;
+	margin-top: 141px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #101010;
+}
+.sevices{
+	width: 254px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+.services-list{
+	width: 254px;	
+	margin-top: 28px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 160%;
+	text-transform: capitalize;
+	color: #000000;	
+}
+.touch{
+	margin-bottom: 10px;
+	margin-left: 30px;
+	width: 122px;	
+}
+.touch-text{
+	line-height: 14px;
+	margin-top: 33px;
+	width: 122px;	
+}
+.touch-text__connect{
+	display: inline-block;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	margin-bottom: 11px;
+	color: #121212;
+}
+.touch-text__link {
+	cursor: pointer;
+	color: #000000;	
+}
+.touch-text__link:hover {
+	color: blue;
+}
+.touch-social{
+	margin-top: 9px;
+	display: flex;
+}
+.touch-social__facebook{
+	margin-right: 12px;
+	width: 14px;
+	height: 14px;
+	background: url('../img/icons/facebook.svg');
+}
+.touch-social__linkedin{
+	margin-right: 12px;
+	width: 14px;
+	height: 14px;
+	background: url('../img/icons/linkedinlink.svg');
+}
+.touch-social__twitter{
+	width: 14px;
+	height: 14px;
+	background: url('../img/icons/twitter.svg');
+}
+.support{
+	width: 220px;
+	margin-bottom: 10px;
+	margin-left: 166px;
+}
+.online-pay{
+	text-align: right;
+	margin-top: 33px;
+	width: 216px;
+	height: 31px;
+	background: url('../img/icons/visamaster.svg');
+}

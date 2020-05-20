@@ -1,0 +1,83 @@
+.contact{	
+	width: auto;
+	min-height: 545px;
+	background: #FFFFFF;
+}
+.contact-description{
+	width: 445px;	
+	margin-top: 117px;
+	margin-left: 176px;
+}
+.contact-description__text{
+	margin-bottom: 10px;
+	width: 434px;	
+	margin-top: 53px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: justify;
+	color: #000000;
+}
+.right-field{		
+	margin-top: 118px;
+	margin-left: 114px;
+}
+.flname{
+	margin-top: 5px;
+	display: flex;
+}
+.right-field__input{
+	margin-right: 30px;
+	width: 255px;
+	min-height: 60px;
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding-left: 30px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(19, 39, 67, 0.5);
+}
+.right-field__input_phone{
+	margin-top: 24px;
+	width: 540px;
+}
+.right-field__input::placeholder{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(19, 39, 67, 0.5);
+}
+.right-field__select{
+	margin-top: 24px;
+	-webkit-appearance:none;
+	background: url('../img/icons/ChevronDown(E70D).svg') no-repeat right;
+	background-position-x:500px;
+	background-position-y:23px;
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 540px;
+	min-height: 60px;
+	display: flex;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(19, 39, 67, 0.5);
+	padding-left: 31px;
+}
+.button_red{
+	margin-bottom: 10px;
+	margin-top: 27px;
+	background: #ED4C5C;
+	color: #FFFFFF;
+}
